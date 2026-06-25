@@ -36,6 +36,21 @@ a {
     text-decoration: none;
 }
 
+.image-index {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    background: #fff;
+    padding: 24px;
+}
+
+.image-index img {
+    width: min(100%, 900px);
+    height: auto;
+    max-height: calc(100vh - 48px);
+    object-fit: contain;
+}
+
 .site {
     min-height: 100vh;
     background: var(--cream);
